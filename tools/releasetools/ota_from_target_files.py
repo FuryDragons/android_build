@@ -699,6 +699,26 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   system_progress = 0.75
 
+  script.Print("*****************************************************");                 
+  script.Print("*          ___                                      *")
+  script.Print("*         (  _`\                                    *")
+  script.Print("*         | (_(_)_   _  _ __  _   _                 *")
+  script.Print("*         |  _) ( ) ( )( '__)( ) ( )                *")
+  script.Print("*         | |   | (_) || |   | (_) |                *")
+  script.Print("*         (_)   `\___/'(_)   `\__, |                *")
+  script.Print("*                            ( )_| |                *")
+  script.Print("*                            `\___/'                *")
+  script.Print("*  ___                                              *")
+  script.Print("* (  _`\                                            *")
+  script.Print("* | | ) | _ __   _ _    __     _     ___    ___     *")
+  script.Print("* | | | )( '__)/'_` ) /'_ `\ /'_`\ /' _ `\/',__)    *")
+  script.Print("* | |_) || |  ( (_| |( (_) |( (_) )| ( ) |\__, \    *")
+  script.Print("* (____/'(_)  `\__,_)`\__  |`\___/'(_) (_)(____/    *")
+  script.Print("*                 ( )_) |                           *")
+  script.Print("*                  \___/'                           *")
+  script.Print("*****************************************************");
+
+
   if OPTIONS.wipe_user_data:
     system_progress -= 0.1
   if HasVendorPartition(input_zip):
